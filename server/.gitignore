@@ -1,0 +1,11 @@
+node_modules/
+model/
+controls_file/
+patients_file/
+file/
+prova/
+new_model/
+
+.DS_Store
+Desktop.ini
+Thumbs.db
