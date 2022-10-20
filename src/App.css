@@ -1,0 +1,197 @@
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  width: 8em;
+  color: lightcoral;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.color-nav{
+  color: #5db3e6;
+}
+
+/* Global */
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+/* Filters and projects */
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item.active {
+  background-color: #5db3e6;
+  border-color: #5db3e6;
+}
+
+.list-group-item-action:hover {
+  background-color: #9cb7d4;
+}
+
+.projects-title {
+  margin-top: 2rem;
+}
+
+/* Class for important tasks */
+.important {
+  color: red;
+}
+
+.color-bottom {
+    border-style: solid;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.form-group {
+  margin-bottom: 0rem;
+}
+
+.list-group-item > div > div {
+  width: 33%;
+}
+
+.styleDate {
+  text-align: right;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.margin-logo{
+  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.card-img-small {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: x-large;
+  font-weight: bold;
+  line-height: 150%;
+  text-shadow: -1px 0 #0c0b0b, 0 1px #111111, 1px 0 #141414, 0 -1px #0f0f0f;
+  text-align: center; 
+  word-break: break-all;
+  
+}
+
+.card-img {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: x-large;
+  font-weight: bold;
+  line-height: 150%;
+  text-shadow: -1px 0 #0c0b0b, 0 1px #111111, 1px 0 #141414, 0 -1px #0f0f0f;
+  text-align: center; 
+  word-break: break-word;
+}
+.centered-m {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-m {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bottom-m {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-bottom-m {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visual{
+  flex-wrap: wrap;
+  display: flex;
+}
